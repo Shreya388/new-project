@@ -1,21 +1,39 @@
 import { Navbar, Nav} from "react-bootstrap"
+import "./style.css"
 
 const Header = () => {
     return (
-        <header>
-            <div>
-            <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-      
-          
-      </Navbar>
+        
+        <div>
+
+            <div className="cover">
+                <div className="cover_overlay">
+                    <div class="container">
+                        <h1 className="display-3 text-white Heading">Yo! What up</h1>
+                    </div>
+                </div>
             </div>
-        </header>
+
+            {/*Navbar section*/}
+            <Navbar className="nav">
+                <div className="container">
+                <Navbar.Brand href="#home">QUOTO</Navbar.Brand>
+                
+                    <Nav className=" mr-auto ml-auto">
+                        <a className="link" href="#home">Home</a>
+                        <a className="link" href="#features">Features</a>
+                        <a className="link" href="#pricing">Pricing</a>
+            
+                    </Nav>
+                </div>
+            </Navbar>
+            {/*Navbar section End*/}
+          </div>  
+
+
+           
+            
+       
     )
 }
 

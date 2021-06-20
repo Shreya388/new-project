@@ -2,9 +2,8 @@
   text-align: center;
 }
 
-Navbar {
-  background: red;
-}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,4 +37,9 @@ Navbar {
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav{
+  background: red;
+  color:blue;
 }
