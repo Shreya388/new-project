@@ -1,31 +1,35 @@
-import { Navbar, Nav} from "react-bootstrap"
+import { Navbar, Nav, Container} from "react-bootstrap"
 import "./style.css"
+
+var headText = "Yo, What up";
+const brandName = "QUOTO";
 
 const Header = () => {
     return (
         
         <div>
-
             <div className="cover">
                 <div className="cover_overlay">
-                    <div class="container">
-                        <h1 className="display-3 text-white Heading">Yo! What up</h1>
-                    </div>
+                    <Container>
+                        <h1 className="display-3 text-white Heading">{headText}</h1>
+                    </Container>
                 </div>
             </div>
 
             {/*Navbar section*/}
             <Navbar className="nav">
-                <div className="container">
-                <Navbar.Brand href="#home">QUOTO</Navbar.Brand>
+                <Container>
+                <Navbar.Brand style={{fontSize: '23px', color: '#84801A', fontWeight: 'bold', fontFamily: 'Source Sans Pro'}}>{brandName}</Navbar.Brand>
                 
-                    <Nav className=" mr-auto ml-auto">
+                <Container>
+                    <Nav className="mr-auto ">
                         <a className="link" href="#home">Home</a>
                         <a className="link" href="#features">Features</a>
                         <a className="link" href="#pricing">Pricing</a>
             
                     </Nav>
-                </div>
+                    </Container>
+                </Container>
             </Navbar>
             {/*Navbar section End*/}
           </div>  
