@@ -1,50 +1,63 @@
 .nav{
     background: rgb(255, 255, 255);
     border-bottom: 1pt solid rgb(75, 75, 75);
+    
 }
 
 
 .link{
   color:rgb(77, 77, 77);
   text-decoration: none;
-  padding: 17pt; 
+  padding: 10pt; 
   font-family:Arial, Helvetica, sans-serif;
   font-size: 15px; 
   
 }
 
-.brand{
-    color:red;
+.alink{
+    color:rgb(77, 77, 77);
+    text-decoration: none;
+    padding: 10pt; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    border-right:1pt solid rgb(185, 159, 135);
     
-}
+  }
+
+
 
 .link:hover{
     color:rgb(0, 61, 77);
 }
 
+.alink:hover{
+    color:rgb(0, 61, 77);
+}
+
+
 
 .cover{
     background-image: url(images/a.jpg);
     background-size: cover;
-    height: 300pt;
     position: absolute;
     top:63pt;
     left:0;
     right:0;
-    background-position: center;
-    border-left:2pt solid red;
+    height: 400pt;
+    background-position: bottom;
+    
 }
 
-.Heading{
-    margin: 100pt;
-}
+
 .cover_overlay{
     
-    background:rgba(0, 0, 0, 0.37);
-    height: 300pt;
+    background:rgba(88, 35, 0, 0.384);
+    
+ backdrop-filter: blur(4px);
     position: absolute;
     top:0;
     left:0;
     right:0;
+    height: 400pt;
     background-position: center;
 }
