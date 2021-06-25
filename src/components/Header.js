@@ -1,8 +1,8 @@
-import { Navbar, Nav, Container, Col} from "react-bootstrap"
+import { Navbar, Nav, Container} from "react-bootstrap"
 import "./style.css"
 
 
-var headPara = "Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin at nisl sagittis, ornare ipsum non,"
+
 var headText = "Yo, What up :)";
 const brandName = "Quoto";
 
@@ -13,11 +13,15 @@ const Header = () => {
         <div>
             <div className="cover">
                 <div className="cover_overlay">
-                    <Container style={{margin: '150pt'}}>
-                        <Col xs={5}>
-                        <h1 className="display-3 Heading" style={{ color: 'yellow' }}>{headText}</h1>
-                        <p style={{color:'#c7c7c7'}}>{headPara}</p>
-                        </Col>
+                    <Container>
+                    
+                        <div style={{marginTop:'200pt'}}>
+                        
+                        <h1 className="display-3 Heading" style={{ color: 'rgb(221 255 140)', fontFamily: 'sans-serif'}}>{headText}</h1>
+                        <p style={{color:'#c7c7c7'}}>Interdum et malesuada fames ac ante ipsum primis in faucibus.<br /> Proin at nisl sagittis, ornare ipsum non,</p>
+                        
+                        </div>
+                        
                     </Container>
                 </div>
             </div>
@@ -25,9 +29,9 @@ const Header = () => {
             {/*Navbar section*/}
             <Navbar className="nav">
                 <Container>
-                <Navbar.Brand style={{fontSize: '23px', color: '#84801A', padding: '15pt', fontWeight: 'bold', fontFamily: 'Source Sans Pro'}}>{brandName}</Navbar.Brand>
+                <Navbar.Brand style={{fontSize: '26px', color: '#a3d9ff', padding: '10pt', fontWeight: 'bold', fontFamily: 'Source Sans Pro'}}>{brandName}</Navbar.Brand>
                 
-                <Container>
+                
                     <Nav className="mr-auto ">
                         <a className="alink" href="#home">Home</a>
                         <a className="link" href="#features">Features</a>
@@ -35,7 +39,7 @@ const Header = () => {
                         <a className="link" href="#contact">Contact</a>
             
                     </Nav>
-                    </Container>
+                    
                 </Container>
             </Navbar>
             {/*Navbar section End*/}

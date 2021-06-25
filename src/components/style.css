@@ -1,12 +1,12 @@
 .nav{
-    background: rgb(255, 255, 255);
-    border-bottom: 1pt solid rgb(75, 75, 75);
+    background: rgba(255, 255, 255, 0);
+    
     
 }
 
 
 .link{
-  color:rgb(77, 77, 77);
+  color:rgb(224, 224, 224);
   text-decoration: none;
   padding: 10pt; 
   font-family:Arial, Helvetica, sans-serif;
@@ -15,7 +15,8 @@
 }
 
 .alink{
-    color:rgb(77, 77, 77);
+    color:rgb(224, 224, 224);
+    font-weight: bold;
     text-decoration: none;
     padding: 10pt; 
     font-family:Arial, Helvetica, sans-serif;
@@ -40,24 +41,24 @@
     background-image: url(images/a.jpg);
     background-size: cover;
     position: absolute;
-    top:63pt;
+    top:0;
     left:0;
     right:0;
-    height: 400pt;
+    height: 100%;
     background-position: bottom;
     
 }
 
 
+
 .cover_overlay{
     
-    background:rgba(88, 35, 0, 0.384);
-    
- backdrop-filter: blur(4px);
+    background:rgba(26, 10, 0, 0.863);
     position: absolute;
     top:0;
     left:0;
     right:0;
-    height: 400pt;
+    height: 100%;
     background-position: center;
+    text-align: center;
 }
