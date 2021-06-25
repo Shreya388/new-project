@@ -15,9 +15,9 @@ const Header = () => {
                 <div className="cover_overlay">
                     <Container>
                     
-                        <div style={{marginTop:'200pt'}}>
+                        <div style={{marginTop:'250pt'}}>
                         
-                        <h1 className="display-3 Heading" style={{ color: 'rgb(221 255 140)', fontFamily: 'sans-serif'}}>{headText}</h1>
+                        <h1 className="display-2 Heading">{headText}</h1>
                         <p style={{color:'#c7c7c7'}}>Interdum et malesuada fames ac ante ipsum primis in faucibus.<br /> Proin at nisl sagittis, ornare ipsum non,</p>
                         
                         </div>
@@ -29,7 +29,7 @@ const Header = () => {
             {/*Navbar section*/}
             <Navbar className="nav">
                 <Container>
-                <Navbar.Brand style={{fontSize: '26px', color: '#a3d9ff', padding: '10pt', fontWeight: 'bold', fontFamily: 'Source Sans Pro'}}>{brandName}</Navbar.Brand>
+                <p className="logo">{brandName}</p>
                 
                 
                     <Nav className="mr-auto ">

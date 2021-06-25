@@ -21,18 +21,20 @@
     padding: 10pt; 
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px; 
-    border-right:1pt solid rgb(185, 159, 135);
+    border-right:3pt solid rgb(190, 125, 63);
+    border-radius:4pt;
     
   }
 
 
 
 .link:hover{
-    color:rgb(0, 61, 77);
+    color:rgb(0, 112, 139);
 }
 
 .alink:hover{
-    color:rgb(0, 61, 77);
+    color:rgb(224, 224, 224);
+
 }
 
 
@@ -45,15 +47,21 @@
     left:0;
     right:0;
     height: 100%;
-    background-position: bottom;
+    background-position: center;
     
 }
 
+.Heading{
+    color: #03a260; font-Family: sans-serif;
+}
 
+.logo{
+    font-size: 26px; color: #a3d9ff; padding: 20pt; font-weight: bold; font-family: Source Sans Pro;
+}
 
 .cover_overlay{
     
-    background:rgba(26, 10, 0, 0.863);
+    background:rgba(138, 32, 0, 0.418);
     position: absolute;
     top:0;
     left:0;
