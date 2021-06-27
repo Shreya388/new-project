@@ -8,26 +8,26 @@ const AboutUs = () => {
     return (
         <div style={{marginTop: '800px', textAlign:'center'}}>
             <Container>
-                <h1 style={{}}>What We Make</h1>
+                <h1 style={{}}>What We Make</h1><br /><br />
 
                 <Row>
-                <Col xs lg="2">
-                <Card style={{ width: '18rem' }}>
-                 <Card.Img className="card_1" variant="top" src={a} />
+                <Col xs lg="4">
+                <Card>
+                 <Card.Img className="cards" variant="top" src={a} />
                 
                 </Card>
                 </Col>
 
-                <Col xs lg="2">
-                <Card style={{ width: '18rem' }}>
-                 <Card.Img className="card_2" variant="top" src={b} />
+                <Col xs lg="4">
+                <Card>
+                 <Card.Img className="cards" variant="top" src={b} />
                 
                 </Card>
                 </Col>
 
-                <Col xs lg="2">
-                <Card style={{ width: '18rem' }}>
-                 <Card.Img className="card_3" variant="top" src={c} />
+                <Col xs lg="4">
+                <Card >
+                 <Card.Img className="cards" variant="top" src={c} />
                 
                 </Card>
                 </Col>
