@@ -3,7 +3,7 @@ import "./style.css"
 
 
 
-var headText = "Yo, What up :)";
+var headText = "Yo, What up ";
 const brandName = "Quoto";
 
 
@@ -17,7 +17,7 @@ const Header = () => {
                     
                         <div style={{marginTop:'250pt'}}>
                         
-                        <h1 className="display-2 Heading">{headText}</h1>
+                        <h1 className="display-1 Heading">{headText}</h1><br />
                         <p style={{color:'#c7c7c7'}}>Interdum et malesuada fames ac ante ipsum primis in faucibus.<br /> Proin at nisl sagittis, ornare ipsum non,</p>
                         
                         </div>
