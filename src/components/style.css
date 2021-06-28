@@ -1,5 +1,5 @@
 .nav{
-    background: rgba(255, 255, 255, 0);
+    background: rgba(184, 42, 42, 0.733);
     
     
 }
@@ -15,13 +15,13 @@
 }
 
 .alink{
-    color:rgb(188, 214, 158);
+    color:#c9c9c9;
     font-weight: bold;
     text-decoration: none;
     padding: 10pt; 
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px; 
-    border-right:3pt solid rgb(190, 125, 63);
+    border-right:3pt solid rgb(248, 171, 100);
   
     border-radius:0pt 10pt 40pt 1pt;
     
@@ -30,7 +30,7 @@
 
 
 .link:hover{
-    color:rgb(0, 112, 139);
+    color:rgb(243, 243, 243);
 }
 
 .alink:hover{
@@ -41,7 +41,7 @@
 
 
 .cover{
-    background-image: url(images/cover.jpg);
+    background-image: url(images/a.jpg);
     background-size: cover;
     position: absolute;
     top:0;
@@ -49,7 +49,8 @@
     right:0;
     height: 800px;
     background-position: center;
-    
+    border-radius:0pt 0pt 300pt 0pt;
+    border-right:10pt solid rgba(156, 0, 0, 0.466);
 }
 
 .Heading{
@@ -57,26 +58,25 @@
 }
 
 .logo{
-    font-size: 26px; color: #03a260; padding: 20pt; font-weight: bold; font-family: Source Sans Pro;
+    font-size: 26px; color: #ebebeb; padding: 15pt; font-weight: bold; font-family: Source Sans Pro;
 }
 
 .cover_overlay{
     
-    background:rgba(26, 9, 0, 0.829);
+    background:rgba(41, 15, 0, 0.438);
     position: absolute;
     top:0;
     left:0;
     right:0;
     height: 800px;
     background-position: center;
+    border-radius:0pt 0pt 250pt 0pt;
    
 }
 
-.cards:hover{
-    background:rgb(36, 36, 36);
-    position: absolute;
-    top:0;
-    right:0;
-    left:0;
-    bottom:20pt;
+
+.cards{
+    height:200pt;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.747);
 }
