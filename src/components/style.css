@@ -49,8 +49,9 @@
     right:0;
     height: 800px;
     background-position: center;
-    border-radius:0pt 0pt 300pt 0pt;
-    border-right:10pt solid rgba(156, 0, 0, 0.466);
+    
+    
+    
 }
 
 .Heading{
@@ -58,25 +59,26 @@
 }
 
 .logo{
-    font-size: 26px; color: #ebebeb; padding: 15pt; font-weight: bold; font-family: Source Sans Pro;
+    font-size: 26px; color: #ebebeb; padding: 12pt; font-weight: bold; font-family: Source Sans Pro;
 }
 
 .cover_overlay{
     
-    background:rgba(41, 15, 0, 0.438);
+    background:rgba(51, 19, 0, 0.425);
     position: absolute;
     top:0;
     left:0;
     right:0;
     height: 800px;
     background-position: center;
-    border-radius:0pt 0pt 250pt 0pt;
    
+
+    box-shadow: 1pt 1pt 3pt silver;
 }
 
 
 .cards{
     height:200pt;
     background-size: cover;
-    background: rgba(0, 0, 0, 0.747);
+    
 }
