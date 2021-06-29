@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="cover_overlay">
                     <Container>
                     
-                        <div style={{marginTop:'250pt'}}>
+                        <div style={{marginTop:'150pt'}}>
                         
                         <h1 className="display-1 Heading">{headText}</h1><br />
                         <p style={{color:'#c7c7c7'}}>Interdum et malesuada fames ac ante ipsum primis in faucibus.<br /> Proin at nisl sagittis, ornare ipsum non,</p>

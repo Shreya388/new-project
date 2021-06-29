@@ -41,13 +41,13 @@
 
 
 .cover{
-    background-image: url(images/a.jpg);
+    background-image: url(images/cover2.jpg);
     background-size: cover;
     position: absolute;
     top:0;
     left:0;
     right:0;
-    height: 800px;
+    height: 500px;
     background-position: center;
     
     
@@ -64,21 +64,21 @@
 
 .cover_overlay{
     
-    background:rgba(51, 19, 0, 0.425);
+    background:rgba(0, 0, 0, 0.774);
     position: absolute;
     top:0;
     left:0;
     right:0;
-    height: 800px;
+    height: 500px;
     background-position: center;
-   
-
     box-shadow: 1pt 1pt 3pt silver;
+
 }
 
 
 .cards{
-    height:200pt;
+    height:20%;
     background-size: cover;
+    background-position: top;
     
 }

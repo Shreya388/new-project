@@ -6,9 +6,9 @@ import "./style.css"
 
 const AboutUs = () => {
     return (
-        <div style={{marginTop: '800px', textAlign:'center', paddingBottom: '100pt'}}>
+        <div style={{marginTop: '460px', textAlign:'center', paddingBottom: '60pt'}}>
             <Container>
-                <h1 className="display-4">What We Make</h1><br /><br />
+               
 
                 <Row>
                 <Col xs lg="4">
