@@ -8,7 +8,7 @@ const AboutUs = () => {
     return (
         <div style={{marginTop: '800px', textAlign:'center', paddingBottom: '100pt'}}>
             <Container>
-                <h1 style={{}}>What We Make</h1><br /><br />
+                <h1 className="display-4">What We Make</h1><br /><br />
 
                 <Row>
                 <Col xs lg="4">
