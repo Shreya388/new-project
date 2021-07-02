@@ -1,9 +1,7 @@
-.nav{
-    background: rgba(184, 42, 42, 0.733);
-    
-    
-}
+/*Header*/
+/*Top Navbar styling*/
 
+.nav{ background: rgba(184, 42, 42, 0.733); }
 
 .link{
   color:rgb(224, 224, 224);
@@ -22,24 +20,17 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px; 
     border-right:3pt solid rgb(248, 171, 100);
-  
     border-radius:0pt 10pt 40pt 1pt;
     
   }
 
+.link:hover{ color:rgb(243, 243, 243); }
 
+.alink:hover{ color:rgb(123, 124, 120); }
 
-.link:hover{
-    color:rgb(243, 243, 243);
-}
+/*End of Top Navbar styling*/
 
-.alink:hover{
-    color:rgb(123, 124, 120);
-
-}
-
-
-
+/*Cover Section */
 .cover{
     background-image: url(images/cover2.jpg);
     background-size: cover;
@@ -48,23 +39,12 @@
     left:0;
     right:0;
     height: 500px;
-    background-position: center;
-    
-    
-    
-}
-
-.Heading{
-    color: white; font-Family: sans-serif;
-}
-
-.logo{
-    font-size: 26px; color: #ebebeb; padding: 12pt; font-weight: bold; font-family: Source Sans Pro;
+    background-position: center;    
 }
 
 .cover_overlay{
     
-    background:rgba(0, 0, 0, 0.774);
+    background:rgba(0, 0, 0, 0.575);
     position: absolute;
     top:0;
     left:0;
@@ -74,6 +54,11 @@
     box-shadow: 1pt 1pt 3pt silver;
 
 }
+
+.Heading{ color: white; font-Family: sans-serif; }
+
+.logo{ font-size: 26px; color: #ebebeb; padding: 12pt; font-weight: bold; font-family: Source Sans Pro; }
+/*End of Cover section */
 
 
 .cards{

@@ -8,8 +8,6 @@ const AboutUs = () => {
     return (
         <div style={{marginTop: '460px', textAlign:'center', paddingBottom: '60pt'}}>
             <Container>
-               
-
                 <Row>
                 <Col xs lg="4">
                 <Card>
@@ -27,15 +25,14 @@ const AboutUs = () => {
 
                 <Col xs lg="4">
                 <Card >
+               
                  <Card.Img className="cards" variant="top" src={c} />
+                 
                 
                 </Card>
                 </Col>
                 </Row>
   
-    
-  
-
             </Container>
         </div>
     )

@@ -17,7 +17,7 @@ const Header = () => {
                     
                         <div style={{marginTop:'150pt'}}>
                         
-                        <h1 className="display-1 Heading">{headText}</h1><br />
+                        <h1 className="display-3 Heading">{headText}</h1>
                         <p style={{color:'#c7c7c7'}}>Interdum et malesuada fames ac ante ipsum primis in faucibus.<br /> Proin at nisl sagittis, ornare ipsum non,</p>
                         
                         </div>
@@ -30,8 +30,7 @@ const Header = () => {
             <Navbar className="nav">
                 <Container>
                 <p className="logo">{brandName}</p>
-                
-                
+    
                     <Nav className="mr-auto ">
                         <a className="alink" href="#home">Home</a>
                         <a className="link" href="#features">Features</a>
@@ -43,11 +42,7 @@ const Header = () => {
                 </Container>
             </Navbar>
             {/*Navbar section End*/}
-          </div>  
-
-
-           
-            
+          </div>    
        
     )
 }
