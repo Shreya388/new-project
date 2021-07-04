@@ -1,6 +1,8 @@
 /*Header*/
 /*Top Navbar styling*/
 
+.logo{ font-size: 26px; color: #ebebeb; padding: 12pt; font-weight: bold; font-family: Source Sans Pro; }
+
 .nav{ background: rgba(184, 42, 42, 0.733); }
 
 .link{
@@ -42,6 +44,8 @@
     background-position: center;    
 }
 
+.Heading{ color: white; font-Family: sans-serif; }
+
 .cover_overlay{
     
     background:rgba(0, 0, 0, 0.575);
@@ -53,17 +57,14 @@
     background-position: center;
     box-shadow: 1pt 1pt 3pt silver;
 
-}
+}/*End of Cover section */
 
-.Heading{ color: white; font-Family: sans-serif; }
-
-.logo{ font-size: 26px; color: #ebebeb; padding: 12pt; font-weight: bold; font-family: Source Sans Pro; }
-/*End of Cover section */
-
-
+/*card section*/
 .cards{
     height:20%;
     background-size: cover;
     background-position: top;
     
 }
+/*End of card section*/
+
