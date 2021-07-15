@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/react-practice/node_modules
+react-practice/node_modules
 /.pnp
 .pnp.js
 
