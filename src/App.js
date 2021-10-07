@@ -10,7 +10,9 @@ function App() {
 
      
       <Header />
+      
       <AboutUs />
+      
       <AboutMe />
       <ContactUs />
       <Footer />

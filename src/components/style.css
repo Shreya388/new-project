@@ -1,7 +1,7 @@
 /*Header*/
 /*Top Navbar styling*/
 
-.logo{ font-size: 26px; color: #ebebeb; padding: 12pt; font-weight: bold; font-family: Source Sans Pro; }
+.logo{ font-size: 26px; color: #ebebeb; font-weight: bold; font-family: Source Sans Pro; }
 
 .nav{ background: rgba(184, 42, 42, 0.733); }
 
@@ -34,13 +34,13 @@
 
 /*Cover Section */
 .cover{
-    background-image: url(images/cover2.jpg);
+    background-image: url(images/cover.jpg);
     background-size: cover;
     position: absolute;
     top:0;
     left:0;
     right:0;
-    height: 500px;
+    height: 900px;
     background-position: center;    
 }
 
@@ -48,12 +48,12 @@
 
 .cover_overlay{
     
-    background:rgba(0, 0, 0, 0.575);
+    background:rgba(0, 0, 0, 0.747);
     position: absolute;
     top:0;
     left:0;
     right:0;
-    height: 500px;
+    height: 900px;
     background-position: center;
     box-shadow: 1pt 1pt 3pt silver;
 
@@ -108,8 +108,8 @@
 
 }
 
-.contactUs_div{
-  background: rgba(202, 202, 202, 0.192);
+.contactUs_section{
+  background: linear-gradient(10deg, rgba(14, 13, 13, 0.918)38%, rgb(236, 87, 53)30%);
   padding: 100pt;
 }
 
@@ -118,4 +118,12 @@
   margin-left:auto;
   margin-right:auto;
 
+}
+
+.contact_div{
+  background: rgb(255, 255, 255);
+  padding:30pt;
+  border: 2pt solid rgba(245, 245, 245, 0.836);
+  box-shadow: 1pt 1pt 1pt rgba(190, 186, 186, 0.527);
+  border-radius: 10pt;
 }

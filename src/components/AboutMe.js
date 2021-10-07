@@ -5,8 +5,8 @@ const dummyTxt = "'Sed ut perspiciatis unde omnis iste natus error sit voluptate
 
 const AboutMe = () => {
     return (
-        <div style={{  background: 'rgb(14 14 14 / 93%)', boxShadow: '1pt 1pt 1pt 0pt rgb(33 33 33 / 96%)'}}>
-            <Container className="text-white" style={{padding: '100pt', fontFamily: 'revert'}}>
+        <div style={{  background: 'rgb(14 14 14 / 93%)', height: "500px", boxShadow: '1pt 1pt 1pt 0pt rgb(33 33 33 / 96%)'}}>
+            <Container className="text-white" style={{padding: '50pt', fontFamily: 'revert'}}>
                 
                     <h1>ABOUT ME</h1><br />
                     <p style={{color:'silver'}}>{dummyTxt}</p>

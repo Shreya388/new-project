@@ -3,10 +3,13 @@ import "./style.css"
 
 const ContactUs = () => {
     return (
-       <div class="contactUs_div">
+       <div class="contactUs_section">
            
-                <div className="container_fluid">
-                    <h1 className="text-center">Contact Us</h1><br />
+           <h3 className="text-center p-4">Stay Connected ;)</h3>
+                <div className="container_fluid contact_div">
+                    
+                    
+                    
 
                     <Row>
                         <Col md lg="6">
@@ -24,6 +27,7 @@ const ContactUs = () => {
                     <Form.Control as="textarea" rows={3} placeholder="Write your message" /><br />
 
                     <Button>Send</Button>
+                
                 </div>
         </div>
     )

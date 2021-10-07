@@ -6,7 +6,8 @@ import "./style.css"
 
 const AboutUs = () => {
     return (
-        <div style={{marginTop: '460px', textAlign:'center', paddingBottom: '60pt'}}>
+        <div>
+        <div style={{marginTop: '1000px', textAlign:'center', height: "400px", }}>
             <Container>
                 <Row>
                 <Col xs lg="4">
@@ -34,6 +35,7 @@ const AboutUs = () => {
                 </Row>
   
             </Container>
+        </div>
         </div>
     )
 }
