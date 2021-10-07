@@ -24,7 +24,7 @@ const ContactUs = () => {
                         </Col>
                     </Row><br />
 
-                    <Form.Control as="textarea" rows={3} placeholder="Write your message" /><br />
+                    <Form.Control as="textarea" id="txtArea" rows={3} placeholder="Write your message" /><br />
 
                     <Button>Send</Button>
                 
