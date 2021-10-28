@@ -47,7 +47,7 @@
 
 .cover_overlay{
     
-    background: linear-gradient(10deg, rgba(122, 3, 158, 0.849)30%, rgba(0, 0, 0, 0.822)30%);
+    background: linear-gradient(110deg, rgba(206, 61, 3, 0.767)30%, rgba(0, 0, 0, 0.822)30%);
     position: absolute;
     top:0;
     left:0;
@@ -113,7 +113,7 @@
 }
 
 .contactUs_section{
-  background: linear-gradient(10deg, rgba(14, 13, 13, 0.918)38%, rgb(236, 87, 53)30%);
+  background: linear-gradient(10deg, rgba(14, 13, 13, 0.918)38%, rgba(206, 61, 3, 0.849)30%);
   padding: 100pt;
 }
 
@@ -134,7 +134,7 @@
 }
 
 #txtArea{
-  background: #252525;
+  background: #f8f8f8;
   font-size: 14px;
   font-family: monospace;
   color:silver;
