@@ -1,0 +1,141 @@
+/*Header*/
+/*Top Navbar styling*/
+
+.logo{ font-size: 26px; color: #ebebeb; font-weight: bold; font-family: Source Sans Pro; }
+
+
+
+.link{
+  color:rgb(224, 224, 224);
+  text-decoration: none;
+  padding: 10pt; 
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px; 
+  
+}
+
+.alink{
+    color:rgb(236, 87, 53);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10pt; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    border-radius:0pt 10pt 40pt 1pt;
+    
+  }
+
+.link:hover{ color:rgb(243, 243, 243); }
+
+.alink:hover{ color:rgb(123, 124, 120); }
+
+/*End of Top Navbar styling*/
+
+/*Cover Section */
+.cover{
+    background-image: url(cover.jpg);
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    height: 900px;
+    background-position: center;    
+}
+
+.Heading{ color: white; font-Family: sans-serif; }
+
+.cover_overlay{
+    
+    background: linear-gradient(70deg, rgba(206, 61, 3, 0.767)30%, rgba(0, 0, 0, 0.822)30%);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    height: 900px;
+    background-position: center;
+    box-shadow: 1pt 1pt 3pt silver;
+
+}/*End of Cover section */
+
+/*card section*/
+.cards{
+    height:20%;
+    background-size: cover;
+    background-position: top;
+    
+}
+/*End of card section*/
+
+/*Contact Us*/
+#name{
+  border: 1pt solid rgba(87, 55, 55, 0.247);
+  background: rgb(243, 243, 243);
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  box-shadow: 1pt 1pt 0pt rgba(230, 230, 230, 0.705);
+  font-size: 13px;
+  font-family: monospace;
+}
+
+#comp_name{
+  border: 1pt solid rgba(87, 55, 55, 0.247);
+  background: rgb(243, 243, 243);
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-size: 13px;
+  font-family: monospace;
+}
+
+#email{
+  border: 1pt solid rgba(87, 55, 55, 0.247);
+  background: rgb(243, 243, 243);
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  box-shadow: 1pt 1pt 0pt rgba(230, 230, 230, 0.705);
+  font-size: 13px;
+  font-family: monospace;
+}
+
+#phone{
+  border: 1pt solid rgba(87, 55, 55, 0.247);
+  background: rgb(243, 243, 243);
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  box-shadow: 1pt 1pt 0pt rgba(230, 230, 230, 0.705);
+  font-size: 13px;
+  font-family: monospace;
+
+}
+
+.contactUs_section{
+  background: linear-gradient(10deg, rgba(14, 13, 13, 0.918)38%, rgba(206, 61, 3, 0.849)30%);
+  padding: 100pt;
+}
+
+.container_fluid{
+  max-width: 400pt;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.contact_div{
+  background: rgb(255, 255, 255);
+  padding:30pt;
+  border: 2pt solid rgba(245, 245, 245, 0.836);
+  box-shadow: 1pt 1pt 1pt rgba(190, 186, 186, 0.527);
+  border-radius: 10pt;
+  
+}
+
+#txtArea{
+  background: #f8f8f8;
+  font-size: 14px;
+  font-family: monospace;
+  color:silver;
+}

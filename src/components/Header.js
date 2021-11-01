@@ -1,16 +1,15 @@
 import { Navbar, Nav, Container} from "react-bootstrap"
-import "./style.css"
-
+import "./style.css";
+import { Link } from "react-router-dom";
 
 
 var headText = "Yo, What up ";
 const brandName = "Quoto";
 
-
 const Header = () => {
     return (
-        
         <div>
+            
             <div className="cover">
                 <div className="cover_overlay">
                     <Container>
@@ -29,20 +28,20 @@ const Header = () => {
             {/*Navbar section*/}
             <Navbar className="nav" style={{}}>
             
-                <Container>
-                
-                        <p className="logo">{brandName}</p>
-                        <Nav className="mr-auto ">
-                        <a className="alink" href="#home">Home</a>
-                        <a className="link" href="#features">Features</a>
-                        <a className="link" href="#pricing">Pricing</a>
-                        <a className="link" href="#contact">Contact</a>
-                        
+            <Container>
+    
+            <p className="logo">{brandName}</p>
+            <Nav className="mr-auto ">
+            <Link to="/" className="alink">Home</Link>
+            <Link to="/about" className="link">About</Link>
+            <Link to="/features" className="link">Features</Link>
+            <Link to="/contact" className="link">Contact</Link>
             
-                    </Nav>
-                    
-                </Container>
-            </Navbar>
+
+        </Nav>
+        
+    </Container>
+</Navbar>
             {/*Navbar section End*/}
           </div>    
        

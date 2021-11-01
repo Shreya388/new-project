@@ -5,7 +5,7 @@ const ContactUs = () => {
     return (
        <div class="contactUs_section">
            
-           <h3 className="text-center p-4">Stay Connected ;)</h3>
+           <h3 className="text-center p-4 text-white">Stay Connected ;)</h3>
                 <div className="container_fluid contact_div">
                     
                     
