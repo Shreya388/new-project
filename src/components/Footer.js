@@ -29,7 +29,7 @@ const Footer = () => {
                 </Container>
             </Col>
 
-            <Navbar className="" style={{background: 'rgba(164, 25, 18, 0.88)'}}>
+            <Navbar className="" style={{background: 'rgb(206 61 3 / 92%)'}}>
                 <Container>
                     
                     <a className="link" href="#home">Copyright .etc</a>
